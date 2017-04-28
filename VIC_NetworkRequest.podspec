@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "VIC_NetworkRequest"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "VIC_NetworkRequest"
   s.homepage     = "https://github.com/Venus-Software/objective_c_Network"
   s.license      = "MIT"
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
     ss.public_header_files = 'VIC_NetworkRequest/BaseRequest/**/*.h'
 
     ss.subspec 'ThirdSuppter' do |sss|
-      sss.source_files = 'ThirdSuppter/**/*.{h,m}'
-      sss.public_header_files = 'ThirdSuppter/**/*.h'  
+      sss.source_files = 'VIC_NetworkRequest/ThirdSuppter/**/*.{h,m}'
+      sss.public_header_files = 'VIC_NetworkRequest/ThirdSuppter/**/*.h'  
     end
 
     ss.subspec 'VICNetworking' do |sss|
-      sss.source_files = 'VICNetworking/*.{h,m}'
-      sss.public_header_files = 'VICNetworking/*.h'  
+      sss.source_files = 'VIC_NetworkRequest/VICNetworking/*.{h,m}'
+      sss.public_header_files = 'VIC_NetworkRequest/VICNetworking/*.h'  
     end
   end
   
