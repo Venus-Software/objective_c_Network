@@ -1,0 +1,21 @@
+PODS:
+  - VIC_NetworkRequest (0.1.6):
+    - VIC_NetworkRequest/BaseRequest (= 0.1.6)
+    - VIC_NetworkRequest/ThirdSuppter (= 0.1.6)
+    - VIC_NetworkRequest/VICNetworking (= 0.1.6)
+  - VIC_NetworkRequest/BaseRequest (0.1.6):
+    - VIC_NetworkRequest/ThirdSuppter
+    - VIC_NetworkRequest/VICNetworking
+  - VIC_NetworkRequest/ThirdSuppter (0.1.6)
+  - VIC_NetworkRequest/VICNetworking (0.1.6):
+    - VIC_NetworkRequest/ThirdSuppter
+
+DEPENDENCIES:
+  - VIC_NetworkRequest
+
+SPEC CHECKSUMS:
+  VIC_NetworkRequest: 2742479022865e4349904912460bb96b5d3fb5f6
+
+PODFILE CHECKSUM: c76eebd27335a4371e7b76d97f5b2fed378e9a8f
+
+COCOAPODS: 1.2.0.beta.1
